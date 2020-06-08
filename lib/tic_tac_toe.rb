@@ -24,6 +24,7 @@ WIN_COMBINATIONS = [
     puts "-----------"
   end
 
-  def input_to_index
+  def input_to_index(user)
 
   end
+end
