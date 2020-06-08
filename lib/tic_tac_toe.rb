@@ -64,7 +64,7 @@ class TicTacToe
       #if the move is valid, make the move and display the board
       # if the move is invalid, ask for a new move until a valid move is received
       puts "#{current_player}, please enter a number 1-9:"
-      input = gets.chomp
+      input = gets.strip
       index = input_to_index(input)
       current = current_player
       if valid_move?(index)
