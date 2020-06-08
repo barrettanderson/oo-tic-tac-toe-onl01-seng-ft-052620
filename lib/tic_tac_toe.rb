@@ -40,7 +40,7 @@ class TicTacToe
     end
 
     def turn_count
-
+      position_taken?.select{|a| a == "X" || a == "O"}.count
     end
 
 end
