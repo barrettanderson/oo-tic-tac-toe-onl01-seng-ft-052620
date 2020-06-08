@@ -57,4 +57,8 @@ class TicTacToe
       end
     end
 
+    def turn
+
+    end
+
 end
