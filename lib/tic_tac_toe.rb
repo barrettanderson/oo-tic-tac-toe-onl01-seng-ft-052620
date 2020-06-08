@@ -30,4 +30,10 @@ class TicTacToe
     def move(position, player)
       @board[position] = player
     end
+
+    def position_taken
+
+    end
+    
+    
 end
