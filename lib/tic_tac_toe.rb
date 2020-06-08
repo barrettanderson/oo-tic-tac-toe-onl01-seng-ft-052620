@@ -40,7 +40,13 @@ class TicTacToe
     end
 
     def turn_count
-      position_taken?.select{|a| a == "X" || a == "O"}.count
+      number_of_turns = 0
+      @board.each do |play|
+        if play == "X" || play == "O"
+          number_of_turns += 1
+        end
+      end
+      number_of_turns
     end
 
 end
