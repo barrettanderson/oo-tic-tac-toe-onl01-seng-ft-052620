@@ -39,7 +39,7 @@ class TicTacToe
       valid.between?(0,8) && !position_taken?(valid)
     end
 
-    def turn
+    def turn_count
 
     end
 
